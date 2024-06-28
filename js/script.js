@@ -17,14 +17,14 @@ function animateFromLeft() {
 		delay: 0.2,
 		stagger: 0.05,
 	});
-	tl.to(".from-left .tile", {
-		duration: 0.4,
-		width: "100%",
-		left: "100%",
-		delay: 0.2,
-		stagger: -0.05,
-	});
-	tl.set(".from-left .tile", { left: "0", width: "0" });
+	// tl.to(".from-left .tile", {
+	// 	duration: 0.4,
+	// 	width: "100%",
+	// 	left: "100%",
+	// 	delay: 0.2,
+	// 	stagger: -0.05,
+	// });
+	tl.set(".from-left .tile", { left: "0", width: "100%" });
 	tl.set(fromLeftButton, {pointerEvents: 'all'})
 }
 
